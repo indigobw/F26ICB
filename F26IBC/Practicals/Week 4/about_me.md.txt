@@ -1,0 +1,23 @@
+# Python shebang
+#!/usr/bin/env python3
+
+# Defining variables
+x = "Indigo"
+x = "My name: Indigo"
+y = "My favorite color: Purple"
+z = "My favorite activity: Rowing"
+t = "My favorite animal: Any cat"
+
+# Testing the variable
+x
+	'My name is Indigo'
+
+# Printing
+
+print(x, y, z, t)
+	My name: Indigo My favorite color: Purple My favorite activity: Rowing My favorite animal: Any cat
+print (x,
+	  y, 
+	     z,
+		t)
+My name: Indigo My favorite color: Purple My favorite activity: Rowing My favorite animal: Any cat
