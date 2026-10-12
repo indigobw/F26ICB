@@ -1,7 +1,21 @@
 ```python
 #Define variables, add if statements for fizz and buzz, make sure numbers that fit both will print both
 ```
-
+>[!NOTE]
+> This was a great try and you got there in the end. I definitely applaud the effort :-)!. I think trying to adapt code that found the first "n" numbers that met some condition drove you down an odd path, in which you ended up having to find the number of rounds that ended up in numbers being output. A simpler way to get there could have been to iterate over 1-100, and apply the `if` statements that you wrote:
+>```python
+>for x in range(1,101):
+>    if x % 15 == 0:
+>        print("FizzBuzz")
+>    if x % 3 == 0:
+>        print ("Fizz")
+>        continue
+>    if x % 5 == 0:
+>        print("Buzz")
+>    else:
+>        print(x)
+```
+>I do want to reiterate that I applaud you trying and getting there in the end. That was great!
 
 ```python
 #Trying to just print fizz and buzz
