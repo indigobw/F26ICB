@@ -65,8 +65,20 @@
 ```python
 #End seqeunce
 ```
-
-
-```python
-
-```
+>[!NOTE]
+>This is good overall, but it may have been more helpful to put your `if`/`else` statements inside a`while` loop that runs while the knife comes out with batter, since this would be more similar to how you'd code this in most languages. I see that you did something similar, but writing it out in a little more "code-y" way can help translate pseudocode to code. For example
+>
+>```
+>Cake = "not_done"
+>
+>while Cake == "not_done"
+>    Inserted_knife = insert_knife(cake)
+>    if Inserted_knife == Clean
+>        Cake = "done"
+>        Print(Cake is Ready)
+>    else
+>        START timer (5)
+>
+>TAKE Grease_Pan OUT of Oven
+>Cool Cake ON Rack
+>````
